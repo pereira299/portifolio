@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="150" viewBox="0 0 1366 150" fill="none">
+    <g>
+        <rect width="50" height="75" x="0" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="50" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="100" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="150" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="200" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="250" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="300" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="350" y="25" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="400" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="450" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="500" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="550" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="600" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="650" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="700" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="750" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="800" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="850" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="900" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="950" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1000" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1050" y="0" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1100" y="25" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1150" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1200" y="50" fill="#222f3e"></rect>
+        <rect width="50" height="75" x="1250" y="25" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1300" y="50" fill="#222f3e"></rect>
+    </g>
+    <g>
+        <rect width="50" height="75" x="0" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="50" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="100" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="150" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="200" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="250" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="300" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="350" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="400" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="450" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="500" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="550" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="600" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="650" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="700" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="750" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="800" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="850" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="900" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="950" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1000" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1050" y="50" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1100" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1150" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1200" y="100" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1250" y="75" fill="#2a3545"></rect>
+        <rect width="50" height="75" x="1300" y="100" fill="#2a3545"></rect>
+    </g>
+</svg>

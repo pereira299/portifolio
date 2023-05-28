@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Vue.js",
+    "icon": "vue",
+    "color": "#3fb27f",
+    "level": 75
+  },
+  {
+    "name": "React.js",
+    "icon": "react",
+    "color": "#61dafb",
+    "level": 85
+  },
+  {
+    "name": "Next.js",
+    "icon": "next",
+    "color": "#ffffff",
+    "level": 80
+  },
+  {
+    "name": "TailwindCSS",
+    "icon": "tailwind",
+    "color": "#06b6d4",
+    "level": 90
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "bootstrap",
+    "color": "#7952b3",
+    "level": 65
+  },
+  {
+    "name": "HTML",
+    "icon": "html",
+    "color": "#e34f26",
+    "level": 95
+  },
+  {
+    "name": "CSS",
+    "icon": "css",
+    "color": "#2965f1",
+    "level": 95
+  },
+  {
+    "name": "JavaScript",
+    "icon": "javascript",
+    "color": "#f0db4f",
+    "level": 90
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript",
+    "color": "#007acc",
+    "level": 80
+  },
+  {
+    "name": "Nuxt.js",
+    "icon": "nuxt",
+    "color": "#00c58e",
+    "level": 75
+  },
+  {
+    "name": "GSAP",
+    "icon": "gsap",
+    "color": "#88ce02",
+    "level": 50
+  },
+  {
+    "name": "Three.js",
+    "icon": "three",
+    "color": "#ffffff",
+    "level": 20
+  }
+]
