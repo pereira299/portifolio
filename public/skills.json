@@ -20,13 +20,13 @@
   {
     "name": "TailwindCSS",
     "icon": "tailwind",
-    "color": "#06b6d4",
+    "color": "#38bdf8",
     "level": 90
   },
   {
     "name": "Bootstrap",
     "icon": "bootstrap",
-    "color": "#7952b3",
+    "color": "#6610f2",
     "level": 65
   },
   {
@@ -38,13 +38,13 @@
   {
     "name": "CSS",
     "icon": "css",
-    "color": "#2965f1",
+    "color": "#264de4",
     "level": 95
   },
   {
     "name": "JavaScript",
     "icon": "javascript",
-    "color": "#f0db4f",
+    "color": "#f7df1e",
     "level": 90
   },
   {
