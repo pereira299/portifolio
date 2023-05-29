@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Brenner & Advogados associados",
+    "description": "Site instucional para escritório de advocacia, desenvolvido com um design moderno e responsivo, com o objetivo de apresentar os serviços e a equipe do escritório.",
+    "image": "brenner",
+    "link": "https://brenneradv.com/",
+    "stack": ["WordPress", "Elementor", "PHP", "CSS", "JavaScript", "HTML"],
+    "date": "2021-09-01"
+  },
+  {
+    "title": "Católico na Web",
+    "description": "Um site para a divulgação de conteúdo católico, com o objetivo de evangelizar através das orações, leituras bíblicas e histórias de santos.",
+    "image": "catolico-web",
+    "link": "https://catoliconaweb.com.br/",
+    "stack": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Next.js"
+    ],
+    "date": "2021-05-01",
+    "vitrine": true
+  },
+  {
+    "title": "Jokenpo",
+    "description": "Site para jogar jokenpo, com o objetivo de treinar os conhecimentos em HTML, CSS e JavaScript.",
+    "image": "jokenpo",
+    "link": "https://jokenpo-pereira299.vercel.app/",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "date": "2022-06-01"
+  },
+  {
+    "title": "Hecta",
+    "description": "Site institucional desenvolvido para a empresa Hecta, com o objetivo de apresentar os serviços oferecidos.",
+    "image": "hecta",
+    "link": "https://hecta-site.vercel.app/",
+    "stack": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Next.js"
+    ],
+    "date": "2023-05-01"
+  },
+  {
+    "title": "Clarovida Cred",
+    "description": "Site institucional desenvolvido para a empresa Clarovida Cred, com o objetivo de apresentar os serviços oferecidos.",
+    "image": "clarovida",
+    "link": "",
+    "stack": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Next.js"
+    ],
+    "date": "2020-12-01",
+    "vitrine": true
+  },
+  {
+    "title": "Helte Solar",
+    "description": "Desenvolvimento das paginas de login e cadastro para a plataforma da empresa Helte Solar,",
+    "image": "helte",
+    "link": "https://plataforma.helte.com.br/login",
+    "stack": ["Bootstrap","HTML", "CSS", "JavaScript", "Vue.js" ],
+    "date": "2022-05-01",
+    "vitrine": true
+  },
+  {
+    "title": "Jardim Web",
+    "description": "Desenvolvido para a disciplina de Sitios Web 1, com o objetivo de treinar os conhecimentos em HTML, CSS.",
+    "image": "jardim",
+    "link": "http://maverick.td.utfpr.edu.br/jardimweb/plantas/304/",
+    "stack": ["HTML", "CSS"],
+    "date": "2018-06-01"
+  }
+]

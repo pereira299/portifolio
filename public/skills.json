@@ -21,7 +21,7 @@
     "name": "TailwindCSS",
     "icon": "tailwind",
     "color": "#38bdf8",
-    "level": 100
+    "level": 90
   },
   {
     "name": "Bootstrap",
@@ -33,19 +33,19 @@
     "name": "HTML",
     "icon": "html",
     "color": "#e34f26",
-    "level": 100
+    "level": 90
   },
   {
     "name": "CSS",
     "icon": "css",
     "color": "#264de4",
-    "level": 100
+    "level": 90
   },
   {
     "name": "JavaScript",
     "icon": "javascript",
     "color": "#f7df1e",
-    "level": 100
+    "level": 90
   },
   {
     "name": "TypeScript",
@@ -70,5 +70,23 @@
     "icon": "three",
     "color": "#ffffff",
     "level": 25
+  },
+  {
+    "name": "WordPress",
+    "icon": "wordpress",
+    "color": "#0073aa",
+    "level": 75
+  },
+  {
+    "name": "Git",
+    "icon": "git",
+    "color": "#f05133",
+    "level": 75
+  },
+  {
+    "name": "Node.js",
+    "icon": "node",
+    "color": "#8cc84b",
+    "level": 75
   }
 ]
