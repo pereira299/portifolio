@@ -14,3 +14,10 @@
   --p: 100%;
 }
 
+li .overlay {
+  opacity: 0;
+}
+
+li:hover  .overlay {
+  opacity: 1;
+}

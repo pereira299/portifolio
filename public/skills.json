@@ -9,49 +9,49 @@
     "name": "React.js",
     "icon": "react",
     "color": "#61dafb",
-    "level": 85
+    "level": 75
   },
   {
     "name": "Next.js",
     "icon": "next",
     "color": "#ffffff",
-    "level": 80
+    "level": 75
   },
   {
     "name": "TailwindCSS",
     "icon": "tailwind",
     "color": "#38bdf8",
-    "level": 90
+    "level": 100
   },
   {
     "name": "Bootstrap",
     "icon": "bootstrap",
     "color": "#6610f2",
-    "level": 65
+    "level": 50
   },
   {
     "name": "HTML",
     "icon": "html",
     "color": "#e34f26",
-    "level": 95
+    "level": 100
   },
   {
     "name": "CSS",
     "icon": "css",
     "color": "#264de4",
-    "level": 95
+    "level": 100
   },
   {
     "name": "JavaScript",
     "icon": "javascript",
     "color": "#f7df1e",
-    "level": 90
+    "level": 100
   },
   {
     "name": "TypeScript",
     "icon": "typescript",
     "color": "#007acc",
-    "level": 80
+    "level": 75
   },
   {
     "name": "Nuxt.js",
@@ -69,6 +69,6 @@
     "name": "Three.js",
     "icon": "three",
     "color": "#ffffff",
-    "level": 20
+    "level": 25
   }
 ]
