@@ -1,7 +1,7 @@
 import About from '@/components/Sections/About'
+import Projects from '@/components/Sections/Projects'
 import Skills from '@/components/Sections/Skills'
 import Welcome from '@/components/Sections/Welcome'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Welcome />
       <About />
       <Skills />
+      <Projects />
     </>
   )
 }

@@ -18,6 +18,50 @@ li .overlay {
   opacity: 0;
 }
 
-li:hover  .overlay {
+li:hover .overlay {
   opacity: 1;
+}
+
+.face-hidden {
+  backface-visibility: hidden;
+}
+
+.face-visible {
+  backface-visibility: visible;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-x-180 {
+  transform: rotateX(180deg);
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.-rotate-x-180 {
+  transform: rotateX(-180deg);
+}
+
+.-rotate-y-180 {
+  transform: rotateY(-180deg);
+}
+
+.hover\:rotate-x-180:hover {
+  transform: rotateX(180deg);
+}
+
+.hover\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+}
+
+.hover\:-rotate-x-180:hover {
+  transform: rotateX(-180deg);
+}
+
+.hover\:-rotate-y-180:hover {
+  transform: rotateY(-180deg);
 }
