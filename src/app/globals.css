@@ -86,3 +86,24 @@ li:hover .overlay {
 .child\:.hover\:-rotate-y-180:first-child:hover {
   transform: rotateY(-180deg);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(31 41 55);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(51 61 75);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(11 21 35);
+}
