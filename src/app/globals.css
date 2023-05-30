@@ -14,6 +14,10 @@
   --p: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li .overlay {
   opacity: 0;
 }
@@ -32,6 +36,7 @@ li:hover .overlay {
 
 .preserve-3d {
   transform-style: preserve-3d;
+  transform-perspective: 1000px;
 }
 
 .rotate-x-180 {
