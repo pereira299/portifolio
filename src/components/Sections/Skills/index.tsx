@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col justify-between w-screen h-section bg-gray-800 py-32 px-10"
+      className="flex flex-col justify-between w-screen bg-gray-800 py-32 px-10"
     >
       <TitleSection title="Habilidades" className="mx-auto" />
       <Carousel qtd={skillList.length}>

@@ -65,3 +65,19 @@ li:hover .overlay {
 .hover\:-rotate-y-180:hover {
   transform: rotateY(-180deg);
 }
+
+.child\:hover\:rotate-x-180:first-child:hover {
+  transform: rotateX(180deg);
+}
+
+.child\:hover\:rotate-y-180:first-child:hover {
+  transform: rotateY(180deg);
+}
+
+.child\:.hover\:-rotate-x-180:first-child:hover {
+  transform: rotateX(-180deg);
+}
+
+.child\:.hover\:-rotate-y-180:first-child:hover {
+  transform: rotateY(-180deg);
+}
