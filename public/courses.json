@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Sistemas para internet",
+    "image": "/images/courses/utfpr.png",
+    "description": "Curso de graduação em sistemas para internet na Universidade Tecnológica Federal do Paraná (UTFPR). O curso forma profissionais capacitados para atuar nas áreas de desenvolvimento web, administração de redes de computadores, administração de serviços e sistemas para internet. Os egressos serão capazes de planejar, implementar, administrar e aprimorar sistemas para internet, gerenciar projetos com acesso a banco de dados e aplicação na web, otimizar o desempenho e a segurança de redes de computadores e lidar com sistemas online.",
+    "period": {
+      "start": "2018-03-01",
+      "end": "2024-11-01"
+    }
+  },
+  {
+    "title": "OmniStack - Be the Hero",
+    "image": "/images/courses/rocketseat.png",
+    "description": "A Semana Omnistack da Rocketseat é um evento que ensina o desenvolvimento de uma aplicação completa usando Node.js, React e React Native. Durante cinco dias, são abordados o backend, o frontend e o aplicativo mobile. Durante a semana foi desenvolvido uma plataforma chamada \"Be the Hero\" que conecta ONGs a pessoas dispostas a ajudar. A Semana Omnistack utiliza ferramentas como o Expo para o desenvolvimento mobile e ensina conceitos como estados de componentes, hooks e integrações com outros apps.",
+    "period": {
+      "start": "2020-03-01",
+      "end": "2020-03-01"
+    }
+  },
+  {
+    "title": "Next Level Week - Spacetime",
+    "image": "/images/courses/rocketseat.png",
+    "description": "O NLW Spacetime é um evento online gratuito promovido pela Rocketseat que busca levar as habilidades em programação para o próximo nível. Os participantes têm a oportunidade de construir um projeto completo, explorar novas tecnologias e desenvolver habilidades práticas. O evento oferece trilhas de conteúdo para diferentes níveis de conhecimento, desde iniciantes até desenvolvedores experientes. O projeto proposto é criar uma aplicação de recordação de memórias. ",
+    "period": {
+      "start": "2023-05-01",
+      "end": "2023-05-01"
+    }
+  },
+  {
+    "title": "Criando 3D para a Web com Three.js e WebGL",
+    "image": "/images/courses/udemy.png",
+    "description": "O curso ensina como criar gráficos 3D usando JavaScript, ThreeJS e WebGL. Aprendi a criar objetos realistas com luzes, sombras e texturas complexas. O curso é prático e direto ao ponto, abordando temas como criação de objetos 3D, formas geométricas, posicionamento espacial, luzes, sombras, texturas, renderização e depuração. ",
+    "period": {
+      "start": "2022-12-01",
+      "end": "2022-12-01"
+    }
+  },
+  {
+    "title": "JavaScript e TypeScript do básico ao avançado",
+    "image": "/images/courses/udemy.png",
+    "description": "O curso abrange desde os fundamentos do JavaScript até tópicos avançados, incluindo TypeScript, desenvolvimento front-end com React, desenvolvimento back-end com Node.js e bancos de dados, segurança, testes automatizados, design patterns, entre outros. O curso também oferece bônus, como HTML5 e CSS3. Os alunos aprendem a utilizar ferramentas como Webpack e Babel, criar projetos reais, fazer deploy de aplicações em servidores Linux, desenvolver APIs REST, utilizar React Hooks e Redux, realizar testes automatizados com o Jest, criar sites com SSR e SSG usando NextJS, trabalhar com bancos de dados SQL, entre outros tópicos importantes.",
+    "period": {
+      "start": "2023-01-01",
+      "end": "2023-01-01"
+    }
+  },
+  {
+    "title": "Crie Animações para a Web com HTML5 Canvas",
+    "image": "/images/courses/udemy.png",
+    "description": "O curso aborda os fundamentos do desenho e animação para a web utilizando HTML5 Canvas, com foco em tecnologias modernas como PixiJS e GSAP. É destinado a pessoas interessadas em criar desenhos e animações para a web, artistas que desejam combinar arte e programação, desenvolvedores web interessados em efeitos visuais com JavaScript, e estudantes que desejam criar jogos utilizando HTML5. O curso aborda a criação de gráficos com HTML5 Canvas, uso do PixiJS, efeitos e animações para a web, animações com o GSAP, criação de textos com fontes personalizadas e carregamento de imagens externas.",
+    "period": {
+      "start": "2022-07-01",
+      "end": "2022-07-01"
+    }
+  },
+  {
+    "title": "Como Criar Um Site (Grátis e Moderno)",
+    "image": "/images/courses/filipe.png",
+    "description": "Os tutoriais da série \"Como Criar Um Site (Grátis e Moderno)\" ensinam a criar um site utilizando o framework frontend Next.js, hospedá-lo gratuitamente com alto desempenho na Vercel e programar uma API REST usando variáveis de ambiente e estratégias de cache avançadas. Durante os tutoriais é possível aprender conceitos fundamentais de desenvolvimento web, como a diferença entre páginas estáticas, dinâmicas e single page applications. Também adquiri habilidades profissionais, como lidar com cenários desafiadores, simular um banco de dados sobrecarregado e garantir a disponibilidade e desempenho do site. Os conhecimentos adquiridos podem ser aplicados a qualquer linguagem de programação, framework ou tecnologia. Além disso, são ensinados conceitos específicos do Next.js, como getStaticProps, getServerSideProps, getStaticPaths e Incremental Static Generation.",
+    "period": {
+      "start": "2021-01-01",
+      "end": "2021-01-01"
+    }
+  }
+]
