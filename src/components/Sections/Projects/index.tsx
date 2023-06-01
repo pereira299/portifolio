@@ -17,7 +17,7 @@ export default function Projects() {
       className="h-[90vh] flex flex-col items-center py-10"
     >
       <TitleSection title="Projetos" className="mx-auto" />
-      <div className="flex flex-row justify-between w-8/12 my-auto h-64">
+      <div className="flex flex-row justify-between w-8/12 my-auto h-64 gap-x-8">
         {vitrine.map((project) => (
           <CardProject project={project} key={project.title} />
         ))}
