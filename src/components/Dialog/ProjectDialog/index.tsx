@@ -1,29 +1,15 @@
 import CardProject from "@/components/Cards/CardProject";
 import Dialog from "..";
-import Image from "next/image";
-import Link from "next/link";
-
-interface ProjectType {
-  title: string;
-  image: string;
-  description: string;
-  link: string;
-  stack: string[];
-  date: string;
-}
-interface ProjectDialogProps {
-  open: boolean;
-  onClose: () => void;
-  projects: Array<ProjectType>;
-}
+import Project from "@/types/project";
+import DialogProject from "@/types/dialog/dialogProject";
 
 export default function ProjectDialog({
   open,
   onClose,
   projects,
-}: ProjectDialogProps) {
-  
-  const sortByDate = (a: ProjectType, b: ProjectType) => {
+}: DialogProject) {
+
+  const sortByDate = (a: Project, b: Project) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
 

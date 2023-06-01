@@ -2,16 +2,9 @@ import Chip from "@/components/Chip";
 import Image from "next/image";
 import Link from "next/link";
 import CardFlip from "../CardFlip";
+import Project from "@/types/project";
+import CardProject from "@/types/cards/cardProject";
 
-interface CardProjectProps {
-  project: {
-    title: string;
-    image: string;
-    description: string;
-    link: string;
-    stack: string[];
-  };
-}
 
 function FrontCard(props: {
   project: { title: string; image: string; shortText: string };
@@ -61,7 +54,7 @@ function BackCard({
   );
 }
 
-export default function CardProject(props: CardProjectProps) {
+export default function CardProject(props: CardProject) {
   const { description} = props.project;
   const count = description.split(" ").reduce((acc, item) => {
     if (acc < 90) {

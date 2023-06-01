@@ -2,19 +2,10 @@ import Chip from "@/components/Chip";
 import Image from "next/image";
 import Link from "next/link";
 import CardFlip from "../CardFlip";
+import CardProject from "@/types/cards/cardProject";
 
-interface CardProjectProps {
-  project: {
-    title: string;
-    description: string;
-    image: string;
-    link: string;
-    stack: string[];
-    date: string;
-  };
-}
 
-export default function CardProject({ project }: CardProjectProps) {
+export default function CardProject({ project }: CardProject) {
   return (
     <article
       key={project.title}

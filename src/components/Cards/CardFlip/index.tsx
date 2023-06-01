@@ -1,13 +1,6 @@
+import CardFlip from "@/types/cards/cardFlip";
 import { gsap } from "gsap";
 import { MouseEvent, useLayoutEffect, useRef, useState } from "react";
-
-interface CardFlipProps {
-  front: JSX.Element;
-  back: JSX.Element;
-  className?: string;
-  frontClass?: string;
-  backClass?: string;
-}
 
 export default function CardFlip({
   front,
@@ -15,7 +8,7 @@ export default function CardFlip({
   className,
   backClass,
   frontClass,
-}: CardFlipProps) {
+}: CardFlip) {
   const [tl, setTl] = useState<gsap.core.Timeline>();
   const frontSide = useRef<HTMLDivElement>(null);
   const backSide = useRef<HTMLDivElement>(null);

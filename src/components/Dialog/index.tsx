@@ -1,21 +1,7 @@
+import Dialog from "@/types/dialog/dialog";
 import { X } from "lucide-react";
 
-interface DialogProps {
-  open: boolean;
-  closeDialog: () => void;
-  title?: string;
-  children: React.ReactNode;
-  onConfirm?: () => void;
-  confirmText?: string;
-  hasConfirm?: boolean;
-  className?: string;
-  hasCancel?: boolean;
-  cancelText?: string;
-  cancelClass?: string;
-  confirmClass?: string;
-}
-
-export default function Dialog(props: DialogProps) {
+export default function Dialog(props: Dialog) {
   const { open, closeDialog, title, onConfirm, confirmText, children } = props;
 
   if (!open) return <></>;
