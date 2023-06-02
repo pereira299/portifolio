@@ -1,5 +1,6 @@
 import Dialog from "@/types/dialog/dialog";
 import { X } from "lucide-react";
+import Button from "@/components/Button";
 
 export default function Dialog(props: Dialog) {
   const { open, closeDialog, title, onConfirm, confirmText, children } = props;
@@ -25,20 +26,20 @@ export default function Dialog(props: Dialog) {
         </main>
         <footer className={`flex flex-row justify-end`}>
           {props.hasCancel && (
-            <button
+            <Button
+              {...props}
+              text={props.cancelText ?? "Cancelar"}
+              className={`w-fit px-3 py-2 font-bold text-center text-sky-600 hover:text-white border-0`}
               onClick={closeDialog}
-              className={`w-fit px-3 py-2 font-bold text-center text-sky-600 hover:text-white`}
-            >
-              {props.cancelText ?? "Cancelar"}
-            </button>
+            />
           )}
           {props.hasConfirm && (
-            <button
+            <Button
+              {...props}
+              text={confirmText ?? "Confirmar"}
+              className={`w-fit px-3 py-2 font-bold text-center text-sky-600 hover:text-white`}
               onClick={onConfirm}
-              className={`w-fit px-3 py-2 font-bold text-center rounded-lg text-sky-600 hover:text-white hover:border-white border-2 border-sky-600`}
-            >
-              {confirmText ?? "Confirmar"}
-            </button>
+            />
           )}
         </footer>
       </section>

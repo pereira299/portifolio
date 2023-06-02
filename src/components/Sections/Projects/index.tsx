@@ -4,6 +4,7 @@ import TitleSection from "@/components/TitleSection";
 import projects from "../../../../public/projects.json";
 import ProjectDialog from "@/components/Dialog/ProjectDialog";
 import { useState } from "react";
+import Button from "@/components/Button";
 
 export default function Projects() {
   const vitrine = projects.filter((project) => project.vitrine === true);
@@ -22,12 +23,11 @@ export default function Projects() {
           <CardProject project={project} key={project.title} />
         ))}
       </div>
-      <button
+      <Button 
         onClick={openDialog}
-        className="text-sky-600 font-lato font-bold cursor-pointer hover:text-white mx-auto text-lg"
-      >
-        Ver todos
-      </button>
+        className="hover:text-white mx-auto text-lg border-0"
+        text="Ver todos"
+      />
       <ProjectDialog
         open={open}
         onClose={closeDialog}
