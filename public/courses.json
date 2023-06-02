@@ -36,15 +36,6 @@
     }
   },
   {
-    "title": "JavaScript e TypeScript do básico ao avançado",
-    "image": "/images/courses/udemy.png",
-    "description": "O curso abrange desde os fundamentos do JavaScript até tópicos avançados, incluindo TypeScript, desenvolvimento front-end com React, desenvolvimento back-end com Node.js e bancos de dados, segurança, testes automatizados, design patterns, entre outros. O curso também oferece bônus, como HTML5 e CSS3. Os alunos aprendem a utilizar ferramentas como Webpack e Babel, criar projetos reais, fazer deploy de aplicações em servidores Linux, desenvolver APIs REST, utilizar React Hooks e Redux, realizar testes automatizados com o Jest, criar sites com SSR e SSG usando NextJS, trabalhar com bancos de dados SQL, entre outros tópicos importantes.",
-    "period": {
-      "start": "2023-01-01",
-      "end": "2023-01-01"
-    }
-  },
-  {
     "title": "Crie Animações para a Web com HTML5 Canvas",
     "image": "/images/courses/udemy.png",
     "description": "O curso aborda os fundamentos do desenho e animação para a web utilizando HTML5 Canvas, com foco em tecnologias modernas como PixiJS e GSAP. É destinado a pessoas interessadas em criar desenhos e animações para a web, artistas que desejam combinar arte e programação, desenvolvedores web interessados em efeitos visuais com JavaScript, e estudantes que desejam criar jogos utilizando HTML5. O curso aborda a criação de gráficos com HTML5 Canvas, uso do PixiJS, efeitos e animações para a web, animações com o GSAP, criação de textos com fontes personalizadas e carregamento de imagens externas.",

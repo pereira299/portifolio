@@ -1,4 +1,5 @@
 import Course from "@/types/course";
+import Button from "@/components/Button";
 import Image from "next/image";
 import { useMemo } from "react";
 
@@ -7,9 +8,10 @@ export default function CardCourse(props: Course) {
 
   const summary = useMemo(() => {
     if (!description) return "Curso de " + title;
-
+    
     const words = description.split(" ");
-    const summary = words.slice(0, 20).join(" ");
+    const count = description.slice(0, 85).split(" ").length;
+    const summary = words.slice(0, count-1).join(" ");
 
     return summary + "...";
   }, [description, title]);
@@ -45,16 +47,16 @@ export default function CardCourse(props: Course) {
   }, [period]);
 
   return (
-    <article className="flex flex-col gap-y-2 w-[48%]">
+    <article className="flex flex-col gap-y-2 w-[33%] rounded-2xl transition-colors duration-300 hover:bg-gray-900 p-4">
       <div className="flex flex-row justify-between">
         <Image
           src={image}
           width={400}
           height={400}
           alt={title}
-          className="w-4/12 rounded-2xl"
+          className="w-2/12 rounded-xl"
         />
-        <h4 className="w-7/12 text-white font-bold my-auto font-lato-bold text-xl">
+        <h4 className="w-9/12 text-white font-bold my-auto font-lato-bold text-xl">
           {title}
         </h4>
       </div>
@@ -65,7 +67,8 @@ export default function CardCourse(props: Course) {
         >
           {date}
         </time>
-        <p className="text-gray-200 text-md font-lato">{summary}</p>
+        <p className="text-gray-200 text-md font-lato mb-0">{summary}</p>
+        <Button  text="Ver mais" className="mt-2" onClick={props.readMore} />
       </div>
     </article>
   );

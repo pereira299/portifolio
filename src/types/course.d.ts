@@ -6,4 +6,5 @@ export default interface Course {
       start: string;
       end: string;
     }
+    readMore?: () => void;
 }
