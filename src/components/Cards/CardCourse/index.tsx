@@ -68,7 +68,7 @@ export default function CardCourse(props: Course) {
           {date}
         </time>
         <p className="text-gray-200 text-md font-lato mb-0">{summary}</p>
-        <Button  text="Ver mais" className="mt-2" onClick={props.readMore} />
+        <Button  text="Ver mais" className="mt-2 w-full" onClick={props.readMore} variant="outlined"/>
       </div>
     </article>
   );

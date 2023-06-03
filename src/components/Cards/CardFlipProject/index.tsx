@@ -77,8 +77,8 @@ export default function CardProject(props: CardProject) {
         }
         back={<BackCard project={props.project} />}
         className="w-64 h-80 mr-3"
-        frontClass="rounded-lg w-full h-full bg-gray-700 border-t-8 border-sky-500 p-3"
-        backClass="rounded-lg w-full flex flex-col justify-between h-full bg-gray-700 border-t-8 border-sky-500 p-3"
+        frontClass="rounded-lg w-full h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mb-5 before:flex before:mx-auto before:rounded-t-lg p-3"
+        backClass="rounded-lg w-full flex flex-col justify-between h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mx-auto before:rounded-t-lg p-3"
       />
     </>
   );
