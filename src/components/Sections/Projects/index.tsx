@@ -25,7 +25,7 @@ export default function Projects() {
       </div>
       <Button 
         onClick={openDialog}
-        className="hover:text-white mx-auto text-lg border-0"
+        className="hover:text-white mx-auto text-lg border-0 "
         text="Ver todos"
       />
       <ProjectDialog
