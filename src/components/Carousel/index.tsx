@@ -37,7 +37,7 @@ export default function Carousel({ children, qtd, onChange }: { children: React.
   };
   return (
     <>
-      <div className="my-0 mx-auto max-w-4xl overflow-hidden mt-40">
+      <div className="my-0 mx-auto max-w-4xl overflow-hidden mt-40 hidden lg:block">
         <ul
           className="grid grid-flow-col transition-all duration-700 ease-in-out"
           style={{
@@ -47,7 +47,7 @@ export default function Carousel({ children, qtd, onChange }: { children: React.
           {children}
         </ul>
       </div>
-      <nav className="flex flex-row justify-between px-10 w-11/12 z-30 mt-52">
+      <nav className="lg:flex flex-row justify-between px-10 w-11/12 z-30 mt-52 hidden">
         <button
           className="text-sky-700 hover:text-white cursor-pointer mt-[-19rem] absolute disabled:text-gray-900"
           disabled={page == 0}

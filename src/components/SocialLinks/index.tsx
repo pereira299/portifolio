@@ -28,22 +28,22 @@ export default function SocialLinks(props: {
   return (
     <ul
       className={
-        "flex flex-row justify-between px-4 w-4/12 mx-auto " + props.className
+        "flex flex-row justify-between px-4 w-8/12 lg:w-4/12 " + props.className
       }
     >
       {links.map((link) => (
-        <li key={link.label} className="cursor-pointer">
+        <li key={link.label} className="cursor-pointer w-fit">
           <Link
             target="_blank"
             href={link.href}
             className={props.itemClass}
           >
             {React.createElement(link.icon, {
-              size: 35,
+              size: 40,
               className: "text-sky-700 transition-colors duration-200 hover:text-white",
             })}
             {props.showLabel && (
-              <p className="text-gray-500 transition-colors duration-200 hover:text-white">
+              <p className="text-gray-500 text-2xl lg:text-md transition-colors duration-200 hover:text-white">
                 {link.label}
               </p>
             )}

@@ -4,4 +4,5 @@ export default interface CardFlip {
   className?: string;
   frontClass?: string;
   backClass?: string;
+  rootClass?: string;
 }

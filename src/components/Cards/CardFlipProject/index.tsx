@@ -19,8 +19,8 @@ function FrontCard(props: {
         height={300}
         className="rounded-md w-full h-auto"
       />
-      <h5 className="text-white font-bold text-md mt-5 mb-3">{title}</h5>
-      <p className="text-white text-sm">{shortText}</p>
+      <h5 className="text-white font-bold text-3xl md:text-4xl lg:text-md mt-5 mb-3">{title}</h5>
+      <p className="text-white text-2xl md:text-3xl lg:text-sm">{shortText}</p>
     </>
   );
 }
@@ -48,7 +48,7 @@ function BackCard({
         href={link}
         className="border-sky-600 flex border-2 w-full rounded-md px-2 py-1 hover:border-white hover:text-white text-sky-600"
       >
-        <p className=" text-center w-full font-semibold">Acessar o site</p>
+        <p className="text-xl lg:text-md text-center w-full font-semibold">Acessar o site</p>
       </Link>
     </>
   );
@@ -76,7 +76,8 @@ export default function CardProject(props: CardProject) {
           />
         }
         back={<BackCard project={props.project} />}
-        className="w-64 h-80 mr-3"
+        className="w-64 h-96 md:h-[32rem] lg:h-80 mr-3 mb-5 lg:mb-0"
+        rootClass="mb-10 lg:mb-0"
         frontClass="rounded-lg w-full h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mb-5 before:flex before:mx-auto before:rounded-t-lg p-3"
         backClass="rounded-lg w-full flex flex-col justify-between h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mx-auto before:rounded-t-lg p-3"
       />

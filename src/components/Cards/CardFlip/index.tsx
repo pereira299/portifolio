@@ -8,6 +8,7 @@ export default function CardFlip({
   className,
   backClass,
   frontClass,
+  rootClass,
 }: CardFlip) {
   const [tl, setTl] = useState<gsap.core.Timeline>();
   const frontSide = useRef<HTMLDivElement>(null);
@@ -33,9 +34,9 @@ export default function CardFlip({
     if (tl) tl.reverse();
   };
   return (
-    <div id="mainWrap" className="w-full" onMouseEnter={play} onMouseLeave={reverse}>
+    <div id="mainWrap" className={"w-full " + rootClass}  onMouseEnter={play} onMouseLeave={reverse}>
       <div
-        className={`float-left relative preserve-3d w-full h-40" ${className ?? ''}`}
+        className={`float-left relative preserve-3d w-full lg:h-40" ${className ?? ''}`}
         ref={card}
       >
         <div className={`absolute face-hidden top-0 bottom-0 w-full left-0 right-0 ${frontClass ?? ''}`} ref={frontSide}>

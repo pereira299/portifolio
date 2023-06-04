@@ -21,15 +21,13 @@ export default function ProjectDialog({
       open={open}
       closeDialog={onClose}
       title="Projetos"
-      className="flex flex-row flex-wrap justify-between h-fit overflow-y-scroll mt-5 max-h-[90%]"
+      className="flex flex-col lg:flex-row flex-wrap justify-between h-fit overflow-y-scroll mt-5 max-h-[90%]"
     >
-      <div className="">
-        <div className="gap-y-3 flex flex-row flex-wrap justify-between">
+        <div className="gap-y-3 flex flex-col lg:flex-row flex-wrap justify-between">
           {projects.sort(sortByDate).map((project) => (
             <CardProject project={project} key={project.title} />
           ))}
         </div>
-      </div>
     </Dialog>
   );
 }

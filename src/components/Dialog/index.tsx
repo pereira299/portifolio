@@ -10,11 +10,11 @@ export default function Dialog(props: Dialog) {
   return (
     <dialog
       open={open}
-      className="w-screen flex h-screen fixed backdrop-blur-lg bg-rhino-950/50 z-[100] top-0 left-0 bottom-0 right-0"
+      className="w-screen flex h-screen fixed backdrop-blur-lg bg-rhino-950/50 z-[100] top-0 left-0"
     >
-      <section className="bg-gray-800 rounded-lg w-10/12 p-3 h-5/6 m-auto">
-        <header className="flex flex-row justify-between">
-          <h4 className="text-white text-3xl font-bold font-oxanium-bold">
+      <section className="bg-gray-800 rounded-lg w-[95%] lg:w-10/12 lg:p-3 h-[92vh] lg:h-5/6 lg:m-auto">
+        <header className="flex flex-row justify-between p-3 lg:p-0">
+          <h4 className="text-white text-4xl lg:text-3xl font-bold font-oxanium-bold">
             {title ?? ""}
           </h4>
           <button onClick={closeDialog}>

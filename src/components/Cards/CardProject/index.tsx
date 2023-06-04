@@ -9,7 +9,7 @@ export default function CardProject({ project }: CardProject) {
   return (
     <article
       key={project.title}
-      className="flex flex-col w-[32%] h-[22rem] justify-between mb-10"
+      className="flex flex-col w-full lg:w-[32%] lg:h-[22rem] justify-between mb-10"
     >
       <CardFlip
         front={
@@ -32,8 +32,8 @@ export default function CardProject({ project }: CardProject) {
         backClass="flex flex-row flex-wrap gap-y-1 items-center justify-around gap-x-2 bg-gray-900 p-2 rounded-lg h-[9.5rem]"
       />
       <div className="w-full mb-auto mt-4">
-        <h3 className="text-white font-bold text-md">{project.title}</h3>
-        <time dateTime={project.date} className="text-gray-500 text-sm">
+        <h3 className="text-white font-bold text-3xl lg:text-md">{project.title}</h3>
+        <time dateTime={project.date} className="text-gray-500 text-2xl lg:text-sm">
           {Intl.DateTimeFormat("pt-BR", {
             year: "numeric",
             month: "short",
@@ -41,7 +41,7 @@ export default function CardProject({ project }: CardProject) {
             .format(new Date(project.date || "2023-05-01"))
             .replace(" de", "")}
         </time>
-        <p className="text-white text-sm">{project.description}</p>
+        <p className="text-white text-2xl lg:text-sm">{project.description}</p>
       </div>
       <Link
         href={project.link}

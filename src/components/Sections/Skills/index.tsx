@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col justify-between w-screen bg-gray-800 py-32 px-10"
+      className="flex flex-col justify-between w-screen bg-gray-800 py-32 px-3 lg:px-10"
     >
       <TitleSection title="Habilidades" className="mx-auto" />
       <Carousel qtd={skillList.length}>
@@ -15,6 +15,11 @@ export default function Skills() {
           <SkillLevel skill={skill} key={skill.name} />
         ))}
       </Carousel>
+      <div className="lg:hidden flex flex-row flex-wrap">
+        {skillList.map((skill) => (
+          <SkillLevel skill={skill} key={skill.name} />
+        ))}
+      </div>
     </section>
   );
 }

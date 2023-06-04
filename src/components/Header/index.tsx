@@ -1,3 +1,6 @@
+import { Menu } from "lucide-react";
+import DrawerButton from "../Button/drawerButton";
+
 export default function Header() {
   const links = [
     { href: "#about", label: "Sobre" },
@@ -9,8 +12,10 @@ export default function Header() {
 
   return (
     <header className=" px-14 items-center bg-gray-800/30 z-50 backdrop-blur-lg text-white fixed top-0 h-16 left-0 shadow-md flex flex-row justify-between w-screen">
-      <h1 className="font-oxanium-bold text-xl hover:text-gray-300 cursor-pointer transition-colors">Lucas Pereira</h1>
-      <nav>
+      <h1 className="font-oxanium-bold text-xl hover:text-gray-300 cursor-pointer transition-colors">
+        Lucas Pereira
+      </h1>
+      <nav className="hidden lg:block">
         <ul className="flex space-x-14">
           {links.map(({ href, label }) => (
             <li key={label} className="font-oxanium hover-line">
@@ -19,6 +24,7 @@ export default function Header() {
           ))}
         </ul>
       </nav>
+      <DrawerButton />
     </header>
   );
 }
