@@ -1,7 +1,7 @@
 'use client'
 import CardProject from "@/components/Cards/CardFlipProject";
 import TitleSection from "@/components/TitleSection";
-import projects from "../../../../public/projects.json";
+import projects from "../../../../public/dataset/projects.json";
 import ProjectDialog from "@/components/Dialog/ProjectDialog";
 import { useState } from "react";
 import Button from "@/components/Button";

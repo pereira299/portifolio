@@ -2,7 +2,7 @@
 import TitleSection from "@/components/TitleSection";
 import CardCourse from "@/components/Cards/CardCourse";
 import Course from "@/types/course";
-import CourseDataset from "../../../../public/courses.json";
+import CourseDataset from "../../../../public/dataset/courses.json";
 import { useState } from "react";
 import CourseDialog from "@/components/Dialog/CourseDialog";
 

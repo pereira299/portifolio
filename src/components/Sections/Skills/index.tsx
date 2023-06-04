@@ -1,7 +1,7 @@
 import Carousel from "@/components/Carousel";
 import TitleSection from "@/components/TitleSection";
 import SkillLevel from "@/components/SkillLevel";
-import skillList from "../../../../public/skills.json";
+import skillList from "../../../../public/dataset/skills.json";
 
 export default function Skills() {
   return (
