@@ -9,6 +9,7 @@ const nextConfig = {
         EMAIL_ADDRESS: process.env.EMAIL_ADDRESS,
         EMAIL_PASS: process.env.EMAIL_PASS,
     },
+    //favicon: 'public/favicon.png',
 }
 
 module.exports = nextConfig
