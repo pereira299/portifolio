@@ -6,9 +6,6 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      'xs': '400px',
-    },
     extend: {
       fontFamily: {
         oxanium: ["var(--font-oxanium)", "sans-serif"],
