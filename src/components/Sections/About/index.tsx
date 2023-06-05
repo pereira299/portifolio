@@ -8,7 +8,7 @@ export default function About() {
       id="about"
       className="flex flex-col justify-between w-screen bg-[#2a3545]"
     >
-      <div className="absolute -mt-10 lg:-mt-14 w-screen">
+      <div className="absolute -mt-7 lg:-mt-14 w-screen">
         <Image
           src="/images/blocks.svg"
           alt="blocks"
@@ -46,7 +46,7 @@ export default function About() {
           </p>
         </article>
       </div>
-      <div className="-mb-10 lg:-mb-14 w-screen">
+      <div className="-mb-7 lg:-mb-14 w-screen">
         <Image
           src="/images/blocks.svg"
           alt="blocks"

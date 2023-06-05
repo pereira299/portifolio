@@ -44,7 +44,7 @@ export default function SkillLevel({ skill }: SkillLevelProps) {
     }).play();
   };
   return (
-    <li className="w-1/3 lg:w-72 px-5 lg:px-24 h-36 relative" onMouseEnter={play} onMouseLeave={reverse}>
+    <li className="w-1/3 lg:w-72 px-5 lg:px-24 h-36 relative marker:text-gray-800" onMouseEnter={play} onMouseLeave={reverse}>
       <div className="block">
         <Image
           src={`/images/icons/${skill.icon}.svg`}

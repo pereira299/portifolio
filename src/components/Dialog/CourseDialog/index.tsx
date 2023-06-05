@@ -10,7 +10,7 @@ export default function CourseDialog(props: DialogCourse) {
       open={props.open}
       closeDialog={props.onClose}
       title="Curso"
-      className="flex flex-row flex-wrap gap-x-3  lg:justify-between h-fit overflow-y-scroll mt-5 max-h-[90%]"
+      className="flex flex-row flex-wrap gap-x-3  lg:justify-between h-fit overflow-y-scroll mt-5 max-h-[85%]"
     >
       <div className="flex flex-row justify-between h-fit">
         <Image
@@ -29,7 +29,7 @@ export default function CourseDialog(props: DialogCourse) {
           </p>
         </div>
       </div>
-        <p className="text-white lg:hidden">{props.course.description}</p>
+        <p className="text-white lg:hidden mt-3 mb-auto">{props.course.description}</p>
     </Dialog>
   );
 }

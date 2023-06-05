@@ -28,8 +28,8 @@ export default function CardProject({ project }: CardProject) {
             ))}
           </>
         }
-        className="h-40"
-        backClass="flex flex-row flex-wrap gap-y-1 items-center justify-around gap-x-2 bg-gray-900 p-2 rounded-lg h-[9.5rem]"
+        className="h-32 lg:h-40"
+        backClass="flex flex-row flex-wrap gap-y-1 items-center justify-around gap-x-2 bg-gray-900 px-1.5 lg:px-2 py-2 rounded-lg h-32 lg:h-[9.5rem]"
       />
       <div className="w-full mb-auto mt-4">
         <h3 className="text-white font-bold text-xl lg:text-md">{project.title}</h3>

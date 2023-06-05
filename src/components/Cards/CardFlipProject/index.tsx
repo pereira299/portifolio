@@ -37,9 +37,9 @@ function BackCard({
   const { title, description, link, stack } = project;
   return (
     <>
-      <h5 className="text-white font-bold text-xl lg:text-md">{title}</h5>
+      <h5 className="text-white font-bold text-xl mt-2 lg:text-md">{title}</h5>
       <p className="text-white text-lg lg:text-sm">{description}</p>
-      <div className="flex flex-row gap-x-2 mt-2 flex-wrap gap-y-2">
+      <div className="flex flex-row gap-x-2 my-4 flex-wrap gap-y-2">
         {stack.map((item) => (
           <Chip key={item} text={item} />
         ))}
@@ -76,10 +76,10 @@ export default function CardProject(props: CardProject) {
           />
         }
         back={<BackCard project={props.project} />}
-        className="w-64 h-96 md:h-[32rem] lg:h-80 mr-3 mb-5 lg:mb-0"
+        className="w-64 h-[23rem] lg:h-80 mr-3 mb-5 lg:mb-0"
         rootClass="mb-10 lg:mb-0"
-        frontClass="rounded-lg w-full h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mb-5 before:flex before:mx-auto before:rounded-t-lg p-3"
-        backClass="rounded-lg w-full flex flex-col justify-between h-full bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mx-auto before:rounded-t-lg p-3"
+        frontClass="rounded-lg w-full h-fit bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mb-5 before:flex before:mx-auto before:rounded-t-lg p-3"
+        backClass="rounded-lg w-full flex flex-col justify-between h-fit bg-gray-700 before:h-2 before:w-[95%] before:bg-sky-500 before:-mt-5 before:mx-auto before:rounded-t-lg p-3"
       />
     </>
   );

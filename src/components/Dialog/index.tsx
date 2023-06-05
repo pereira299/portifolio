@@ -21,7 +21,7 @@ export default function Dialog(props: Dialog) {
             <X size={40} className="text-white" />
           </button>
         </header>
-        <main className={`px-5 min-h-[80%] w-full ${props.className ?? ""}`}>
+        <main className={`px-5 lg:min-h-[80%] w-full ${props.className ?? ""}`}>
           {children}
         </main>
         <footer className={`flex flex-row justify-end`}>

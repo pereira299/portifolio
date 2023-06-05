@@ -16,9 +16,9 @@
       "HTML",
       "JavaScript",
       "CSS",
-      "Tailwind CSS",
-      "React.js",
-      "Next.js"
+      "Tailwind",
+      "React",
+      "Next"
     ],
     "date": "2021-05-01",
     "vitrine": true
@@ -40,9 +40,9 @@
       "HTML",
       "JavaScript",
       "CSS",
-      "Tailwind CSS",
-      "React.js",
-      "Next.js"
+      "Tailwind",
+      "React",
+      "Next"
     ],
     "date": "2023-05-01"
   },
@@ -55,9 +55,9 @@
       "HTML",
       "JavaScript",
       "CSS",
-      "Tailwind CSS",
-      "React.js",
-      "Next.js"
+      "Tailwind",
+      "React",
+      "Next"
     ],
     "date": "2020-12-01",
     "vitrine": true
@@ -67,7 +67,7 @@
     "description": "Desenvolvimento das paginas de login e cadastro para a plataforma da empresa Helte Solar,",
     "image": "helte",
     "link": "https://plataforma.helte.com.br/login",
-    "stack": ["Bootstrap","HTML", "CSS", "JavaScript", "Vue.js" ],
+    "stack": ["Bootstrap","HTML", "CSS", "JavaScript", "Vue" ],
     "date": "2022-05-01",
     "vitrine": true
   },
