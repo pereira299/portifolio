@@ -67,7 +67,7 @@ export default function SkillLevel({ skill }: SkillLevelProps) {
         ref={ref}
         className="absolute w-full lg:w-6/12 h-full top-7 lg:top-0 bottom-0 flex flex-col justify-center -ml-6 align-middle  bg-rhino-950/80 backdrop-blur-md rounded-2xl"
       >
-        <div className="text-white text-center font-oxanium-bold text-2xl lg:text-xl">
+        <div className="text-white text-center font-oxanium-bold text-xl lg:text-xl">
           {skill.name}
         </div>
       </div>

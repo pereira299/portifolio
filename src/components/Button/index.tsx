@@ -24,7 +24,7 @@ export default function Button(props: Button) {
         href={props.link}
         className={`${btnStyle} flex rounded-md px-2 py-1 ${props.className}`}
       >
-        <p className="text-2xl lg:text-md text-center w-full font-semibold">{props.text}</p>
+        <p className="text-lg lg:text-md text-center w-full font-semibold">{props.text}</p>
       </Link>
     );
   }
@@ -34,7 +34,7 @@ export default function Button(props: Button) {
       {...props}
       className={`${btnStyle} flex rounded-md px-2 py-1 ${props.className}`}
     >
-      <p className="text-2xl lg:text-md text-center w-full font-semibold">{props.text}</p>
+      <p className="text-lg lg:text-md text-center w-full font-semibold">{props.text}</p>
     </button>
   );
 }

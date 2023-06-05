@@ -43,7 +43,7 @@ export default function SocialLinks(props: {
               className: "text-sky-700 transition-colors duration-200 hover:text-white",
             })}
             {props.showLabel && (
-              <p className="text-gray-500 text-2xl lg:text-md transition-colors duration-200 hover:text-white">
+              <p className="text-gray-500 text-xl lg:text-md transition-colors duration-200 hover:text-white">
                 {link.label}
               </p>
             )}

@@ -40,21 +40,21 @@ export default function ContactForm() {
         required
         placeholder="Nome"
         name="name"
-        className="bg-gray-800/70 px-4 py-2 text-xl lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white"
+        className="bg-gray-800/70 px-4 py-2 text-lg lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white"
       />
       <input
         type="email"
         placeholder="E-mail"
         required
         name="email"
-        className="bg-gray-800/70 px-4 py-2 text-xl lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white"
+        className="bg-gray-800/70 px-4 py-2 text-lg lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white"
       />
       <textarea
         placeholder="Mensagem"
         rows={5}
         required
         name="message"
-        className="bg-gray-800/70 px-4 py-2 text-xl lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white resize-none"
+        className="bg-gray-800/70 px-4 py-2 text-lg lg:text-md rounded-lg outline-rhino-600 focus:outline focus:outline-2 placeholder:text-rhino-600 text-white resize-none"
       />
       <Button text="Enviar" itemType="submit" />
     </form>

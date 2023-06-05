@@ -19,8 +19,8 @@ function FrontCard(props: {
         height={300}
         className="rounded-md w-full h-auto"
       />
-      <h5 className="text-white font-bold text-3xl md:text-4xl lg:text-md mt-5 mb-3">{title}</h5>
-      <p className="text-white text-2xl md:text-3xl lg:text-sm">{shortText}</p>
+      <h5 className="text-white font-bold text-xl md:text-4xl lg:text-md mt-5 mb-3">{title}</h5>
+      <p className="text-white text-lg md:text-3xl lg:text-sm">{shortText}</p>
     </>
   );
 }
@@ -37,8 +37,8 @@ function BackCard({
   const { title, description, link, stack } = project;
   return (
     <>
-      <h5 className="text-white font-bold text-md">{title}</h5>
-      <p className="text-white text-sm">{description}</p>
+      <h5 className="text-white font-bold text-xl lg:text-md">{title}</h5>
+      <p className="text-white text-lg lg:text-sm">{description}</p>
       <div className="flex flex-row gap-x-2 mt-2 flex-wrap gap-y-2">
         {stack.map((item) => (
           <Chip key={item} text={item} />

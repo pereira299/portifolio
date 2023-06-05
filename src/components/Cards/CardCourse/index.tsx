@@ -54,20 +54,20 @@ export default function CardCourse(props: Course) {
           width={400}
           height={400}
           alt={title}
-          className="w-3/12 lg:w-2/12 rounded-xl"
+          className="w-3/12 lg:w-2/12 rounded-xl h-fit my-auto"
         />
-        <h4 className="w-8/12 lg:w-9/12 text-white font-bold my-auto font-lato-bold text-3xl lg:text-xl">
+        <h4 className="w-8/12 lg:w-9/12 text-white font-bold my-auto font-lato-bold text-xl lg:text-xl">
           {title}
         </h4>
       </div>
       <div>
         <time
           dateTime={period?.start || new Date().toISOString()}
-          className="text-2xl lg:text-sm text-gray-500 uppercase"
+          className="text-lg lg:text-sm text-gray-500 uppercase"
         >
           {date}
         </time>
-        <p className="text-gray-200 text-2xl lg:text-md font-lato mb-0">{summary}</p>
+        <p className="text-gray-200 text-lg lg:text-md font-lato mb-0">{summary}</p>
         <Button  text="Ver mais" className="mt-2 w-full" onClick={props.readMore} variant="outlined"/>
       </div>
     </article>
