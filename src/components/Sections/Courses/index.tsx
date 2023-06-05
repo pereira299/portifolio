@@ -22,7 +22,7 @@ export default function Courses() {
       id="courses"
       className=" flex flex-col justify-between gap-x-5 lg:items-center py-20 px-5 lg:px-14"
     >
-      <TitleSection title="Cursos" />
+      <TitleSection title="Cursos" className="mx-auto"/>
       <div className="w-full flex flex-col lg:flex-row justify-between mx-auto gap-y-10 flex-wrap mt-5">
         {courseList.sort(sortByDate).map((course, i) => (
           <CardCourse

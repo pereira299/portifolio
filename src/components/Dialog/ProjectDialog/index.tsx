@@ -21,7 +21,7 @@ export default function ProjectDialog({
       open={open}
       closeDialog={onClose}
       title="Projetos"
-      className="flex flex-col lg:flex-row flex-wrap justify-between h-fit overflow-y-scroll mt-5 max-h-[90%]"
+      className="flex flex-col lg:flex-row flex-wrap justify-between h-fit overflow-y-scroll mt-5 max-h-[85%] lg:max-h-[90%]"
     >
         <div className="gap-y-3 flex flex-col lg:flex-row flex-wrap justify-between">
           {projects.sort(sortByDate).map((project) => (

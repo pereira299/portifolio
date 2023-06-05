@@ -30,7 +30,7 @@ export default function About() {
           <SocialLinks />
         </article>
         <article className="w-full lg:w-1/2">
-          <TitleSection title="Sobre" />
+          <TitleSection title="Sobre" className="ml-5 lg:ml-0"/>
           <h3 className="font-bold text-white text-2xl lg:text-md mt-20 mb-5">
             Conheça um pouco sobre mim
           </h3>
