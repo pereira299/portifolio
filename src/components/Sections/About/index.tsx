@@ -3,7 +3,7 @@ import TitleSection from "../../TitleSection";
 import SocialLinks from "../../SocialLinks";
 
 export default function About() {
-  const age = parseInt((new Date() - new Date("1999-04-29").getTime()) /1000/60/60/24/365)
+  const age = parseInt((new Date().getTime() - new Date("1999-04-29").getTime()) /1000/60/60/24/365)
   return (
     <section
       id="about"
