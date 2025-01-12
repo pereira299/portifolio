@@ -3,6 +3,7 @@ import TitleSection from "../../TitleSection";
 import SocialLinks from "../../SocialLinks";
 
 export default function About() {
+  const age = parseInt((new Date() - new Date("1999-04-29").getTime()) /1000/60/60/24/365)
   return (
     <section
       id="about"
@@ -35,12 +36,12 @@ export default function About() {
             Conheça um pouco sobre mim
           </h3>
           <p className="text-xl lg:text-md w-full lg:w-9/12 font-thin text-white mb-2">
-            Olá, meu nome é Lucas Pereira, tenho 23 anos. Comecei a me
+            Olá, meu nome é Lucas Pereira, tenho {{age}} anos. Comecei a me
             interessar pela área de tecnologia da informação aos 15 anos e
             atualmente sou desenvolvedor front-end a mais de 2 anos.
           </p>
           <p className="text-xl lg:text-md w-full lg:w-9/12 font-thin text-white">
-            Estou cursando o 5º período de Sistemas para Internet na
+            Estou cursando o 6º período de Sistemas para Internet na
             Universidade Tecnológica Federal do Paraná (UTFPR) e possuo
             experiencias profissionais na área de desenvolvimento web.
           </p>
