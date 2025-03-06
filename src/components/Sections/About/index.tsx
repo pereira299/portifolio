@@ -54,7 +54,7 @@ export default function About() {
             Conheça um pouco sobre mim
           </h3>
           <p className="text-xl lg:text-md w-full lg:w-9/12 font-thin text-white mb-2">
-            Olá, meu nome é Lucas Pereira, tenho {{age}} anos. Comecei a me
+            Olá, meu nome é Lucas Pereira, tenho {age} anos. Comecei a me
             interessar pela área de tecnologia da informação aos 15 anos e
             atualmente sou desenvolvedor front-end a mais de 2 anos.
           </p>
