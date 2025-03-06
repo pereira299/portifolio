@@ -2,6 +2,7 @@
 import Image from "next/image";
 import TitleSection from "../../TitleSection";
 import SocialLinks from "../../SocialLinks";
+import { useState, useEffect } from "react";
 
 export default function About() {
   const [age, setAge] = useState(0);
