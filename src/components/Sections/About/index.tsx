@@ -3,7 +3,23 @@ import TitleSection from "../../TitleSection";
 import SocialLinks from "../../SocialLinks";
 
 export default function About() {
-  const age = parseInt(((new Date().getTime() - new Date("1999-04-29").getTime()) /1000/60/60/24/365).toString())
+  const [age, setAge] = useState(0);
+
+  // Calculate age on client-side when component mounts
+  useEffect(() => {
+    const birthDate = new Date("1999-04-29");
+    const today = new Date();
+    let calculatedAge = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    // Adjust age if birthday hasn’t occurred this year
+    if (
+      monthDiff < 0 ||
+      (monthDiff === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      calculatedAge--;
+    }
+    setAge(calculatedAge);
+  }, []);
   return (
     <section
       id="about"
