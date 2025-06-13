@@ -8,6 +8,15 @@
     "date": "2021-09-01"
   },
   {
+    "title": "Santa Zuera",
+    "description": "O site do podcast Santa Zuera, com todos os episodios episodios listados e atualizados semanalmente, com a possibilidade de adicionar filtros para encontrar o episódio desejado."
+    "image": "santa-zuera",
+    "link": "https://santa-zuera.vercel.app/",
+    "stack": ["React", "Next", "Tailwind", "Shadcn/ui", "HTML", "TypeScript", "CSS"],
+    "date": "2024-05-10",
+    "vitrine": true
+  }
+  {
     "title": "Católico na Web",
     "description": "Um site para a divulgação de conteúdo católico, com o objetivo de evangelizar através das orações, leituras bíblicas e histórias de santos.",
     "image": "catolico-web",
@@ -60,7 +69,6 @@
       "Next"
     ],
     "date": "2020-12-01",
-    "vitrine": true
   },
   {
     "title": "Helte Solar",
